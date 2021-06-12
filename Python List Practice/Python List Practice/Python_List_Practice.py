@@ -22,5 +22,8 @@ mylist = mylist + ["permenant element"]                     #add "new element" t
 print(mylist)                                               #[1, 2, 3, 'one', 'two', 'three', 'permenant element']
 mylist*2                                                    #duplicate mylist 2 once but still, not permenant
 print(mylist)                                               #stays the same: [1, 2, 3, 'one', 'two', 'three', 'permenant element']
-print(mylist*2)                                             #permenant, so: [1, 2, 3, 'one', 'two', 'three', 'permenant element', 1, 2, 3, 'one', 'two', 'three', 'permenant element']
+print(mylist*2)                                             #permenant, so: [1, 2, 3, 'one', 'two', 'three', 'permenant element', 
+                                                            #               1, 2, 3, 'one', 'two', 'three', 'permenant element']
 
+mylist.append("append new element")                         #equals to mylist = mylist + "append new element"
+print(mylist)                                               #[1, 2, 3, 'one', 'two', 'three', 'permenant element', 'append new element']
