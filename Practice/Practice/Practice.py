@@ -1,7 +1,7 @@
 """
 My practice file on my Python journey
 
-******Self-taught******
+***enjoy***
 
 """
 
@@ -61,3 +61,16 @@ print(i)
 
 ii = i+i                                                                        #ii is an integer as i is int
 print(ii)                                                                       #ii gives a "i+i" string in stead of i*2 in integer form
+
+d = 10                                                                          #d = 10
+print(d*3)                                                                      #d = 10*3 = 30
+print(d**3)                                                                     #d = 10^3 = 1000
+print(d/3)                                                                      #d = 10/3 = 3.33333......
+print(d//3)                                                                     #d = 10//3 = 3 (quotient only)
+
+e, f = 1, 2
+print(e, f)                                                                     #e = 1, f = 2
+e, f = f, e                                                                     #swap the value of e and f
+print(e, f)                                                                     #e = 2, f = 1
+
+
