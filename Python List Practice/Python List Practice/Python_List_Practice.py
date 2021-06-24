@@ -27,3 +27,14 @@ print(mylist*2)                                             #permenant, so: [1, 
 
 mylist.append("append new element")                         #equals to mylist = mylist + "append new element"
 print(mylist)                                               #[1, 2, 3, 'one', 'two', 'three', 'permenant element', 'append new element']
+
+mylist.pop()                                                #pop the right most elemtent of mylist, meaning pop "append new element"
+print(mylist)                                               #[1, 2, 3, 'one', 'two', 'three', 'permenant element']
+mylist.pop(1)                                               #pops the 1st element whichh is "2"
+print(mylist)                                               #[1, 3, 'one', 'two', 'three', 'permenant element']
+mylist.reverse()                                            #reverse mylist
+print(mylist)                                               #['permenant element', 'three', 'two', 'one', 3, 1]
+
+mynewlist = [9, 8, 7, 6, 5, 4]
+mynewlist.sort()                                            #sort mynewlist, each element must have the same type
+print(mynewlist)                                            #[4, 5, 6, 7, 8, 9]
